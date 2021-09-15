@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 275.744 sec <<< FAILURE!
+Verify HomeLoan Repayment Calculator attribute Validation(Validate HomeLoanRepayment Calculator)  Time elapsed: 28.414 sec  <<< FAILURE!
+java.lang.AssertionError: Valid repaymentType expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:76)
+	at ?.User Entered   20000,5,Interest only 3 year,4.04% p.a. 5 Year Fixed Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+
+Verify HomeLoan Repayment Calculator attribute Validation(Validate HomeLoanRepayment Calculator)  Time elapsed: 27.907 sec  <<< FAILURE!
+java.lang.AssertionError: Valid Interest Rate expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:86)
+	at ?.User Entered   20000,5,Interest only 3 years,4.04% p.a. 5 Year Fixd Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+

@@ -1,0 +1,895 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-15T13:25:57.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8465619500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4334772400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6714977100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10014362200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8550676700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   10000,10,Principal and interest,2.69% p.a. Extra Home Loan 30% deposit and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 15
+                },
+                {
+                  "val": "10",
+                  "offset": 21
+                },
+                {
+                  "val": "Principal and interest",
+                  "offset": 24
+                },
+                {
+                  "val": "2.69% p.a. Extra Home Loan 30% deposit ",
+                  "offset": 47
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1233217500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:26:36.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6370711900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3221917100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6819015700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9002018200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9032950800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   10000,5,Interest only 1 year,5.04% p.a. Standard Variable Rate Home Loan and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 15
+                },
+                {
+                  "val": "5",
+                  "offset": 21
+                },
+                {
+                  "val": "Interest only 1 year",
+                  "offset": 23
+                },
+                {
+                  "val": "5.04% p.a. Standard Variable Rate Home Loan ",
+                  "offset": 44
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1283862600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:27:12.624Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6455430400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2931485200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5918653400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9981936400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8620102800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   10000,20,Principal and interest,2.69% p.a. Extra Home Loan 30% deposit and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 15
+                },
+                {
+                  "val": "20",
+                  "offset": 21
+                },
+                {
+                  "val": "Principal and interest",
+                  "offset": 24
+                },
+                {
+                  "val": "2.69% p.a. Extra Home Loan 30% deposit ",
+                  "offset": 47
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1344109600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:27:47.881Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5645357300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 4465213900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6960224700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9107218500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8759948600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   5000,10,Interest only 2 years,4.69% p.a. Extra Investment Home Loan 10% deposit and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 15
+                },
+                {
+                  "val": "10",
+                  "offset": 20
+                },
+                {
+                  "val": "Interest only 2 years",
+                  "offset": 23
+                },
+                {
+                  "val": "4.69% p.a. Extra Investment Home Loan 10% deposit ",
+                  "offset": 45
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1177739500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:28:24.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6238675300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2833980800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6481412400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9727960500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8552530500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   5000,10,Principal and interest,0.99% p.a. CommBank Green Loan and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 15
+                },
+                {
+                  "val": "10",
+                  "offset": 20
+                },
+                {
+                  "val": "Principal and interest",
+                  "offset": 23
+                },
+                {
+                  "val": "0.99% p.a. CommBank Green Loan ",
+                  "offset": 46
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1230279800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:28:59.070Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6159461400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 2997719600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6320517200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11807062600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8379494800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Entered   4999,10,Principal and interest,0.99% p.a. CommBank Green Investment Loan and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4999",
+                  "offset": 15
+                },
+                {
+                  "val": "10",
+                  "offset": 20
+                },
+                {
+                  "val": "Principal and interest",
+                  "offset": 23
+                },
+                {
+                  "val": "0.99% p.a. CommBank Green Investment Loan ",
+                  "offset": 46
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1331104300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:29:36.069Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7231418100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 4528558200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6365892500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9828575600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Valid repaymentType expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:76)\r\n\tat ✽.User Entered   20000,5,Interest only 3 year,4.04% p.a. 5 Year Fixed Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)\r\n",
+              "duration": 447943200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User Entered   20000,5,Interest only 3 year,4.04% p.a. 5 Year Fixed Rate Home Loan and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20000",
+                  "offset": 15
+                },
+                {
+                  "val": "5",
+                  "offset": 21
+                },
+                {
+                  "val": "Interest only 3 year",
+                  "offset": 23
+                },
+                {
+                  "val": "4.04% p.a. 5 Year Fixed Rate Home Loan ",
+                  "offset": 44
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T13:30:04.481Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6710610900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.initializeBrowserDriver()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify HomeLoan Repayment Calculator attribute Validation",
+        "description": "",
+        "id": "validate-homeloanrepayment-calculator;verify-homeloan-repayment-calculator-attribute-validation;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 3713660700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidateHomeLoanRepayment.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6484226600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launched \"https://www.commbank.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.commbank.com.au\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_launched_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8178637000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Home Loan Repayment Calculator",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Valid Interest Rate expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:86)\r\n\tat ✽.User Entered   20000,5,Interest only 3 years,4.04% p.a. 5 Year Fixd Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)\r\n",
+              "duration": 2820613200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User Entered   20000,5,Interest only 3 years,4.04% p.a. 5 Year Fixd Rate Home Loan and clicked on Calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20000",
+                  "offset": 15
+                },
+                {
+                  "val": "5",
+                  "offset": 21
+                },
+                {
+                  "val": "Interest only 3 years",
+                  "offset": 23
+                },
+                {
+                  "val": "4.04% p.a. 5 Year Fixd Rate Home Loan ",
+                  "offset": 45
+                }
+              ],
+              "location": "ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify Total Loan Repayment and Total Interest charged",
+            "match": {
+              "location": "ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeLoan"
+          }
+        ]
+      }
+    ],
+    "name": "Validate HomeLoanRepayment Calculator",
+    "description": "",
+    "id": "validate-homeloanrepayment-calculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomeLoanRepayment.feature",
+    "tags": []
+  }
+]

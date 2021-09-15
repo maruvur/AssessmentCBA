@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="2" name="cucumber.options.TestRunner" time="274.815" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Discount Central\Automation\HomeLoanRepayment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Discount Central\Automation\HomeLoanRepayment"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\maarthis\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Discount Central\Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17465243907314070308.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/maarthis/eclipse-jee-2021-03-R-win32-x86_64-1/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/maarthis/eclipse-jee-2021-03-R-win32-x86_64-1/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\oracle\product\12.1.0\client\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\CrashPlan\jre\bin;C:\Users\maarthis\AppData\Local\Android\Sdk\platform-tools;C:\Users\maarthis\AppData\Local\Android\Sdk\tools;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_221\bin\;C:\Program Files\Java\jre1.8.0_231;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\maarthis\apache-maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\maarthis\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\maarthis\AppData\Local\Programs\Python\Python38\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\maarthis\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\maarthis"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="maarthis"/>
+    <property name="java.class.path" value="C:\Users\maarthis\eclipse-jee-2021-03-R-win32-x86_64-1\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean compile test verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Discount Central\Automation\HomeLoanRepayment\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="39.347"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="35.722"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="35.259"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="36.116"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="35.051"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="36.999"/>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="28.414">
+    <failure message="Valid repaymentType expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Valid repaymentType expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:76)
+	at ✽.User Entered   20000,5,Interest only 3 year,4.04% p.a. 5 Year Fixed Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+</failure>
+    <system-out>
+  @HomeLoan
+  Scenario Outline: Verify HomeLoan Repayment Calculator attribute Validation                                        &amp;#27;[90m# src/test/java/features/HomeLoanRepayment.feature:20&amp;#27;[0m
+ScreenShot Taken
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser Launched &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;https://www.commbank.com.au&quot;&amp;#27;[0m                                                                &amp;#27;[90m# ValidateHomeLoanRepayment.user_launched_something(String)&amp;#27;[0m
+ScreenShot Taken
+ScreenShot Taken
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mNavigate to Home Loan Repayment Calculator&amp;#27;[0m                                                                   &amp;#27;[90m# ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mUser Entered   &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m20000&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mInterest only 3 year&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m4.04% p.a. 5 Year Fixed Rate Home Loan &amp;#27;[0m&amp;#27;[31mand clicked on Calculate&amp;#27;[0m &amp;#27;[90m# ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Valid repaymentType expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:76)
+	at ?.User Entered   20000,5,Interest only 3 year,4.04% p.a. 5 Year Fixed Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mVerify Total Loan Repayment and Total Interest charged&amp;#27;[0m                                                      &amp;#27;[90m# ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()&amp;#27;[0m
+</system-out>
+    <system-err>1631712576239	geckodriver	INFO	Listening on 127.0.0.1:30360
+1631712576754	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\maarthis\\AppData\\Local\\Temp\\rust_mozprofileFnMY6Q&quot;
+1631712577547	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\maarthis\\AppData\\Local\\Temp\\rust_mozprofileFnMY6Q\\search.json.mozlz4&quot;, (void 0)))
+1631712583001	Marionette	INFO	Listening on port 54435
+1631712583265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Sep 15, 2021 6:59:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.commbank.com.au/etc/cloudservices/testandtarget/cba-target-3/_jcr_content/public/at.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.commbank.com.au/digital/home-buying/Scripts/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.my.commbank.com.au/CDN/Netbank/js/mbox.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631712599956	Marionette	INFO	Stopped listening on port 54435
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://www.my.commbank.com.au/CDN/Netbank/js/s_code.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+</system-err>
+  </testcase>
+  <testcase classname="Validate HomeLoanRepayment Calculator" name="Verify HomeLoan Repayment Calculator attribute Validation" time="27.907">
+    <failure message="Valid Interest Rate expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Valid Interest Rate expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:86)
+	at ✽.User Entered   20000,5,Interest only 3 years,4.04% p.a. 5 Year Fixd Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+</failure>
+    <system-out>
+  @HomeLoan
+  Scenario Outline: Verify HomeLoan Repayment Calculator attribute Validation                                        &amp;#27;[90m# src/test/java/features/HomeLoanRepayment.feature:21&amp;#27;[0m
+ScreenShot Taken
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser Launched &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;https://www.commbank.com.au&quot;&amp;#27;[0m                                                                &amp;#27;[90m# ValidateHomeLoanRepayment.user_launched_something(String)&amp;#27;[0m
+ScreenShot Taken
+ScreenShot Taken
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mNavigate to Home Loan Repayment Calculator&amp;#27;[0m                                                                   &amp;#27;[90m# ValidateHomeLoanRepayment.navigated_to_home_loan_repayment_calculator()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mUser Entered   &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m20000&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mInterest only 3 years&amp;#27;[0m&amp;#27;[31m,&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m4.04% p.a. 5 Year Fixd Rate Home Loan &amp;#27;[0m&amp;#27;[31mand clicked on Calculate&amp;#27;[0m &amp;#27;[90m# ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(String,String,String,String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Valid Interest Rate expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at stepDefinition.ValidateHomeLoanRepayment.user_entered_and_clicked_on_calculate(ValidateHomeLoanRepayment.java:86)
+	at ?.User Entered   20000,5,Interest only 3 years,4.04% p.a. 5 Year Fixd Rate Home Loan and clicked on Calculate(file:src/test/java/features/HomeLoanRepayment.feature:7)
+&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mVerify Total Loan Repayment and Total Interest charged&amp;#27;[0m                                                      &amp;#27;[90m# ValidateHomeLoanRepayment.total_loan_repayment_and_total_interest_charged()&amp;#27;[0m
+</system-out>
+    <system-err>1631712605103	geckodriver	INFO	Listening on 127.0.0.1:23300
+1631712605532	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\maarthis\\AppData\\Local\\Temp\\rust_mozprofilefQg8om&quot;
+1631712606439	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\maarthis\\AppData\\Local\\Temp\\rust_mozprofilefQg8om\\search.json.mozlz4&quot;, (void 0)))
+1631712610930	Marionette	INFO	Listening on port 62776
+1631712611138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Sep 15, 2021 7:00:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.commbank.com.au/etc/cloudservices/testandtarget/cba-target-3/_jcr_content/public/at.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.commbank.com.au/digital/home-buying/Scripts/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.my.commbank.com.au/CDN/Netbank/js/mbox.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631712628701	Marionette	INFO	Stopped listening on port 62776
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+</system-err>
+  </testcase>
+</testsuite>
